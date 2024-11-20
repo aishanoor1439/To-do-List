@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+ }
+.body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('pexels-iriser-1408221.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+  }
+  .todo-list-container{
+    /* width: 100vw; small screens pr responsive krnay k liye. large pr koe farq nhe para*/
+    max-width: 548px;
+    background: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 70px 30px;
+    border-radius: 10px;
+}
+.todo-list-container h2{
+    color: #445430;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+.todo-list-container h2 img{
+    width: 30px;
+    margin-left: 10px;
+}
+
+.todo-list-container .btn {
+    background-color: #cf6803 !important;
+    color: white !important;
+}
+.todo-list-container .btn:hover {
+    background-color: #ab3561 !important;
+    color: white !important;
+}
+.todo-list-container .btn-close {
+    background-color: #cf6803 !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+}
+.todo-list-container .btn-close:hover {
+    background-color: #ab3561 !important;
+    color: white !important;
+    border: none !important;
+}
+
+
+
